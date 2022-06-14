@@ -289,6 +289,12 @@ footer .Copyright a{
     padding-bottom: 0px;
 }
 
+.helper #team:checked+.child-menu{
+    transform: scaleY(1);
+    max-height: 100vh;
+    padding-bottom: 0px;
+}
+
 .helper .child-menu .child-item{
     transition: .3s;
     padding: 5px 0px;
