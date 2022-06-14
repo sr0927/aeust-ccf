@@ -25,10 +25,10 @@ function carousel(now_index,pre_index,next_index,img_list,src){
     pre = img_list[pre_index].innerHTML;
     next = img_list[next_index].innerHTML;
     //渲染
-    img_main.src = '../img/'+ src +'/'+ now + '.JPG'
-    pre_img.src = '../img/'+ src +'/'+ pre + '.JPG'
-    now_img.src = '../img/'+ src +'/'+ now + '.JPG'
-    next_img.src = '../img/'+ src +'/'+ next + '.JPG'
+    img_main.src = '../img/'+ src +'/'+ now 
+    pre_img.src = '../img/'+ src +'/'+ pre 
+    now_img.src = '../img/'+ src +'/'+ now
+    next_img.src = '../img/'+ src +'/'+ next 
 }
 
 //獲取相片列表
