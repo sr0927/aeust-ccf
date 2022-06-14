@@ -49,6 +49,7 @@ main{
 }
 
 .intro-img .show-img{
+    overflow: hidden;
     background-color: #010101;
     height: 400px;
     position: relative;
